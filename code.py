@@ -35,9 +35,9 @@ grade_D = 60
 for name, marks in d.items():
     if marks >= grade_A:
         print("Students with grade A : ", name)
-    elif marks in range(grade_B, grade_A):
-        print("Students with grade B: ", name)
-    elif marks in range(grade_C, grade_B):
+    if marks in range(grade_B, grade_A):
+        print("Students with grade B : ", name)
+    if marks in range(grade_C, grade_B):
         print("Students with grade C : ", name)
-    elif marks in range(grade_D, grade_C):
+    if marks in range(grade_D, grade_C):
         print("Students with grade D : ", name)
