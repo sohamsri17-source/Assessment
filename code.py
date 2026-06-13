@@ -28,6 +28,7 @@ for name, marks in d.items():
         print(name)
 
 # Assigning grades : 
+
 grade_A = 90
 grade_B = 80
 grade_C = 70
